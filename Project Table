@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Tables </title>
+</head>
+<body>
+<h1> Tables in html</h1>
+<table border="5px">
+    <tr>
+        <th> Sport </th>
+        <th> Place </th>
+    </tr>
+    <tr>
+        <td> Soccer </td>
+        <td> England-Premier League </td>
+        
+    </tr>
+</table>
+</body>
+
+</html>
