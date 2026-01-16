@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Semantics </title>
+    </head>
+<body>
+    <header>
+        <h1>Navigational Links</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#posts">Posts</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <section>
+        <h2>Facts about Soccer</h2>
+        <p>
+            Soccer is the most popular sport!
+        </p>
+        <article>
+            <aside>
+                <p>
+                    Brazil has the most world cups!
+                </p>
+            </aside>
+        </article>
+    </section>
+    <figcaption>A cute dog.</figcaption>
+    <img src="Screenshot 2026-01-15 194946.png" alt="Pele Image" width="100 px" height ="100 px">
+    <video controls autoplay>
+        <source src="3192198-uhd_3840_2160_25fps.mp4" type="video/mp4" width="150 px" height="150 px">
+        </video>
+        <footer>
+            <p>Contact me at +6 767 676 6767</p>
+        </footer>
+</main>
+</body>
+</html>
