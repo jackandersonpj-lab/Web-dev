@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Reagan High School </title>
+    </head>
+    <bodY>
+        <p>
+           Reagan High School in San Antonio, Texas, is a public high school located in the North East Independent School District. It serves grades 9 through 12 and has a strong emphasis on rigorous academics, with a significant number of students participating in Advanced Placement (AP) courses. The school has achieved a high pass rate on AP exams and is recognized for its strong college readiness and state assessments. Reagan High School offers a wide range of extracurricular activities, including magnet programs, career and college preparatory tracks, and a nationally acclaimed band program. The school's commitment to student achievement and progress is reflected in its "A" accountability rating from the Texas Education Agency. 
+        </p>
+        <h2> This is the best school! </h2>
+        <audio controls autoplay>
+            <source src="rr2-mr10-272824.mp3" type="audio/mpeg">
+        </audio>
+        <video Controls autoplay>
+        <source src="pexels-pixabay-45246.jpg" type="video/mp4">
+        </video>
+    </bodY>
+</html>
