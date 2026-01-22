@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+       <title>Fun stuff</title> 
+    </head>
+    <body>
+        <h1> Fun Stuff form </h1>
+        <form>
+            <label>Nick Name</label><br>
+            <input type="text" id="nick name"><br><br>
+            <label>Favorite #</label><br>
+            <input type="text" id="#"><br><br>
+            <label>How old (This will be hidden)</label><br>
+            <input type="age" id="contact"><br><br>
+            <label>Gender</label><br>
+            <input type="radio" id="female" name="gender" value="Female">Female<br>
+            <input type="radio" id="male" name="gender" value="Male">Male<br>
+            <label>Favorite Superhero</label><br>
+            <input type="checkbox" id="city" value="BatMan">BatMan<br>
+            <input type="checkbox" id="city" value="Flash">Flash<br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
