@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Color </title>
+        <style>
+            h2{
+                color:chartreuse;
+            }
+        </style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 style="color:blue">This is Blue</h1>
+        <h2> This is light Green</h2>
+        <h3> This is Purple</h3>
+        <!--Selectors-->
+        <h4> This is light Brown </h4>
+        <p class="myclass">This is dark Brown</p>
+        <p id="myid">This is Pink</p>
+        <p> This is dark Green </p>
+
+    </body>
+</html>
