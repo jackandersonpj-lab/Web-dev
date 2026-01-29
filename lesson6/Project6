@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <style>
+            #grad1 {
+                background-color: red; 
+                background-image: radial-gradient(to right,red, green, violet, blue, pink, yellow, magenta);
+
+        </style>
+         
+    </head>
+    <body>
+        <div id="grad1" style="text-align:center;margin:auto;color:#888888";font-size:40px;font-weight:bold">
+        Welcome to Codingal
+        </div>
+         body{
+            background-color:aquamarine;
+            background-image:url("sports-ball-size-comparison-premium-vector-illustration_629132-174.avif");
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-attachment: fixed;
+        }
+    </body>
+</html>
