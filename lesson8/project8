@@ -1,0 +1,22 @@
+<htmLL>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <bodY>
+        <h1>Welcome to School</h1>
+        <ul>
+            <li>Math</li>
+            <li>Science</li>
+            <li>History</li>
+            <li>English</li>
+            <li>P.E.</li>
+        </ul>
+        <p>School consits of 4 main subjects</p>
+        <p>
+           P.E. class is not in every school but it helps with your fitness
+        </p>
+        <a href="#">Learn about school</a>
+        <a href="#">Latest school News</a>
+        <a href="#">Gallery of school</a>
+    </bodY>
+</htmLL>
