@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <style>
+            img#flowerright{
+                float:right;
+                width:100px;
+                height:100px;
+            }
+            img#flowerleft{
+                float:left;
+                width:100px;
+                height:100px;
+            }
+        </style>
+    </head>
+    <body>
+       <p>
+         <img id="MEMERight" src="html-css-and.jpg" alt="tree">
+         <img id="MEMELeft" src="html-css-and.jpg" alt="tree">
+         This is a MEME about coding
+         </p>
+    </body>
+</html>
