@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <p><abbr title= codingal >cdgl</abbr> Was founded in 2020./p>
+            <h1>Blockquotes</h1>
+            <p>It is used to present content from another source:</p>
+            <blackquote class="blockquote">
+                <p>Codingal is on a mission to inspire all kids</p>
+                <footer class="blockquote-footer">From Codingal</footer>
+            </blackquote>
+            <pre>
+                codingal is on 
+                a mission
+            </pre>
+    </body>
+</html>
