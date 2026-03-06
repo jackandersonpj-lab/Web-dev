@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">  
+    </head>
+    <body>
+        <div class="container">
+            <h2>Contextual Badges</h2>
+            <button type="button" class="btn btn-primary">Primary<span class="badge badge-danger">21</span></button>
+            <button type="button" class="btn btn-secondary">Secondary<span class="badge badge-danger">2</span></button>
+        </div>
+         <body style="text-align:center;">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 style="color:orange;">
+                    Codingal
+                </h1>
+                <div class="progress">
+            <div class="progress-bar" style="width:67%">67%</div>
+        </body>
+</html>
