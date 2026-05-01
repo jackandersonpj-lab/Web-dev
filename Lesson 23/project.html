@@ -1,0 +1,16 @@
+<html>
+<body>
+<h2>Javascript While Loop Random Numbers</h2>
+<p id="randomNumber"></p>
+<script>
+  let count = 1;
+  let text = "";
+while (count <= 10) {
+    let randomNum = Math.floor(Math.random() * 100) + 1;
+    text += " Number " + count + ": " + randomNum + "<br>";
+    count++;
+  }
+  document.getElementById("randomNumber").innerHTML = text;
+</script>
+</body>
+</html>
