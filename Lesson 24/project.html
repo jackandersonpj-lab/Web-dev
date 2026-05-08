@@ -1,0 +1,38 @@
+<html>
+  <body>
+    <p>
+      A static method is created with the "static" keyword, and you can only call
+      the method on the class itself.
+    </p>
+
+    <p id="Morning"></p>
+    <p id="Afternoon"></p>
+    <p id="Evening"></p>
+
+    <script>
+      class Day {
+        constructor(day) {
+          this.day = day;
+        }
+
+        static morningMessage() {
+          return "Good Morning!";
+        }
+
+        static afternoonMessage(name) {
+          return "Good Afternoon, " + name + "!";
+        }
+
+        eveningMessage() {
+          return "Good Evening, today is " + this.day + ".";
+        }
+      }
+
+      let today = new Day("Friday");
+
+      document.getElementById("Morning").innerHTML = Day.morningMessage();
+      document.getElementById("Afternoon").innerHTML = Day.afternoonMessage("Jack");
+      document.getElementById("Evening").innerHTML = today.eveningMessage();
+    </script>
+  </body>
+</html>
