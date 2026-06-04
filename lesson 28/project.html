@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Event Registration</h1>
+
+<input type="text" id="name" placeholder="Your name"><br>
+<p id="msg"></p>
+
+<button onclick="register()">Register</button>
+
+<p id="result"></p>
+
+<script>
+function register() {
+    var name = document.getElementById("name").value;
+
+    if (name == "") {
+        document.getElementById("msg").textContent =
+        "Please enter your name!";
+    } else {
+        var pass = Math.floor(Math.random()*100)+1;
+        document.getElementById("result").textContent =
+        "Welcome " + name + "! Pass #" + pass;
+    }
+}
+</script>
+
+</body>
+</html>
