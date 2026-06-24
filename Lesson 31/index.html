@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Section</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Font Awesome-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<style>
+    body {
+        background-color: black;
+        color:azure;
+    }
+
+    .n-heading {
+        font-weight: bold;
+    }
+
+    .media_link {
+        border: 2px solid yellow;
+        border-radius: 8px;
+        margin: 10px;
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        color: white;
+        transition: 0.3s;
+    }
+
+    .media_link:hover {
+        background-color: green;
+        color: black;
+    }
+
+    .media_link.bg-warning {
+        background-color: orange !important;
+        color: black !important;
+    }
+
+    .media_link.bg-warning-hovver {
+        background: transparent !important;
+        color: white !important;
+    }
+</style>
+</head>
+<body>
+    <!--Social Media Section-->
+    <div id="social-media" class="container-fluid py-5">
+        <div class="container text-white">
+            <h4 class="text-warning">Social Media</h4>
+            <h1 class="n-heading">Lets be freinds</h1>
+
+            <!--single row for all buttons-->
+            <div class="row pt-4 text-center">
+                <!--LinkdIn-->
+                <div class="col-nd-3">
+                    <a class="media_link" href="#">
+                        <span>LinkdIn</span>
+                        <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+                    </a>
+                </div>
+
+                 <!--GitHub-->
+                <div class="col-md-3">
+                    <a class="media_link" href="#">
+                        <spam>GitHub</spam>
+                        <i class="fab fa-github fa-2x text-secondary"></i>
+                    </a>
+                </div>
+
+                 <!--YouTube-->
+                 <div class="col-md-3">
+                    <a class="media_link" href="#">
+                        <span>YouTube</span>
+                        <i class="fab fa-youtube fa-2x text-secondary"></i>
+                    </a>
+                 </div>
+
+                 <!--Email-->
+                 <div class="col-md-3">
+                    <a class="media_link bg-warning" href="mailto:example@email.com">
+                        <span>Email</span>
+                        <i class="fas fa-envelope fa-2x text-secondary"></i>
+                    </a>
+                 </div>
+                 <!--Footer Section-->
+                 <footer class="bg-dark text-center text-white py-3">
+                    <div class="container">
+                        <p class="container">
+                            <p class="mb-0">
+                                Copyright 2021
+                                <span class="text-warning fw-bold">All Rights Are Reserved By Codingal Eduction</span>
+                            </p>
+                        </p>
+                    </div>
+                 </footer>
+            </div>
+        </div>
+    </div>
+
+</body>
