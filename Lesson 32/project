@@ -1,0 +1,67 @@
+function getBalance() {
+    return document.getElementById("balance-value").innerText;
+}
+function printBalance(num) {
+    document.getElementById("balance-value").innerText = num;
+}
+function getAmount() {
+    return document.getElementById("amount-value").innerText;
+}
+function printAmount(num) {
+    if (num == "") {
+        document.getElementById("amount-value").innerText = num;
+    }
+    else {
+        document.getElementById("amount-value").innerText = formatMoney(num);
+    }
+}
+function formatMoney(num) {
+    var n = Number(num)
+    return "$" + n.toLocaleString("en-US");
+}
+function removeMoneyFormat(num) {
+    return Number(num.replace(/\$|,/g, ""));
+}
+
+var action = document.getElementsByClassName("actions"); // ERROR: should be "action"
+
+for (var i = 0; i < action.length; i++) {
+    action[i].addEventListener("click", function () {
+        var balance = removeMoneyFormat(getBalance());
+        var amount = removeMoneyFormat(getAmount());
+
+        if (this.id == "deposit") {
+            balance = balance + amount;
+            printBalance(balance);
+            printAmount("");
+        }
+        else if (this.id == "withdraw") {
+            if (amount <= balance) {
+                balance = balance - amount;
+                printBalance(balance;
+            } // ERROR: missing )
+            else {
+                alert("Not enough money!");
+            }
+            printAmount("");
+        }
+        else if (this.id == "clearr") { // ERROR: should be "clear"
+            printAmount("");
+        }
+    });
+}
+
+var number = document.getElementsByClassName("number");
+
+for (var i = 0; i < number.length; i++) {
+    number[i].addEventListener("click", function () {
+        var amount = removeMoneyFormat(getAmount()).toString();
+
+        if (ammount == "NaN") { // ERROR: variable name typo
+            amount = "";
+        }
+
+        amount = amount + this.id;
+        printAmunt(amount); // ERROR: function name typo
+    });
+}
