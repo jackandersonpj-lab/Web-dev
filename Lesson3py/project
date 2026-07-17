@@ -1,0 +1,30 @@
+name = input("What is your name?:")
+mood = input("How are you feeling today? Happy/Sad/Tired/Stressed/Angry:")
+energy = int(input("Enter your energy level (1-10):"))
+
+import datetime
+current_time=datetime.datetime.now()
+print("My daily Mood Avisor")
+print("Hello",name)
+if mood == "Happy":
+    print("😊")
+elif mood == "Sad":
+    print("🥺")
+elif mood == "Tired":
+    print("🥱")
+elif mood == "Stressed":
+    print("😰")
+elif mood == "Angry":
+    print("😡")
+else:
+    print("Not a option!")
+
+if energy>8:
+    print("Strong Mood")
+elif energy>5:
+    print("Moderate Mood")
+elif energy>0:
+    print("Low energy")
+else:
+    print("Not a option!")
+
